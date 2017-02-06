@@ -1,5 +1,5 @@
 # GettingAndCleaningData
-##Steps to reproduce this project
+###Steps to reproduce this project
 
 Open the R script run_analysis.r using a text editor.
 
