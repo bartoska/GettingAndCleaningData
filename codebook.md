@@ -93,7 +93,7 @@
 
 <h2>Show a few rows of the dataset</h2>
 
-<pre><code class="r">dtTidy
+<pre><code class="r">TidyData
 </code></pre>
 
 <pre><code>##        subject         activity featDomain featAcceleration featInstrument
@@ -124,7 +124,7 @@
 
 <h2>Summary of variables</h2>
 
-<pre><code class="r">summary(dtTidy)
+<pre><code class="r">summary(TidyData)
 </code></pre>
 
 <pre><code>##     subject                   activity    featDomain  featAcceleration
@@ -152,7 +152,7 @@
 
 <h2>List all possible combinations of features</h2>
 
-<pre><code class="r">dtTidy[, .N, by = c(names(dtTidy)[grep(&quot;^feat&quot;, names(dtTidy))])]
+<pre><code class="r">TidyData[, .N, by = c(names(TidyData)[grep(&quot;^feat&quot;, names(TidyDatay))])]
 </code></pre>
 
 <pre><code>##     featDomain featAcceleration featInstrument featJerk featMagnitude
