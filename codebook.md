@@ -160,8 +160,6 @@ hr {
 <body>
 <h1>Codebook</h1>
 
-<p>Codebook was generated on 2014-04-17 09:04:47 during the same process that generated the dataset. See <code>run_analysis.md</code> or <code>run_analysis.html</code> for details on dataset creation.</p>
-
 <h2>Variable list and descriptions</h2>
 
 <table><thead>
@@ -449,13 +447,7 @@ hr {
 ##     featVariable featAxis   N
 </code></pre>
 
-<h2>Save to file</h2>
 
-<p>Save data table objects to a tab-delimited text file called <code>DatasetHumanActivityRecognitionUsingSmartphones.txt</code>.</p>
-
-<pre><code class="r">f &lt;- file.path(path, &quot;DatasetHumanActivityRecognitionUsingSmartphones.txt&quot;)
-write.table(dtTidy, f, quote = FALSE, sep = &quot;\t&quot;, row.names = FALSE)
-</code></pre>
 
 </body>
 
