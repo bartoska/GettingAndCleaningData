@@ -62,7 +62,7 @@
 
 <h2>Dataset structure</h2>
 
-<pre><code class="r">str(dtTidy)
+<pre><code class="r">str(TidyData)
 </code></pre>
 
 <pre><code>## Classes &#39;data.table&#39; and &#39;data.frame&#39;:   11880 obs. of  11 variables:
@@ -152,7 +152,7 @@
 
 <h2>List all possible combinations of features</h2>
 
-<pre><code class="r">TidyData[, .N, by = c(names(TidyData)[grep(&quot;^feat&quot;, names(TidyDatay))])]
+<pre><code class="r">TidyData[, .N, by = c(names(TidyData)[grep(&quot;^feat&quot;, names(TidyData))])]
 </code></pre>
 
 <pre><code>##     featDomain featAcceleration featInstrument featJerk featMagnitude
