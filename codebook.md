@@ -83,7 +83,7 @@
 
 <h2>List the key variables in the data table</h2>
 
-<pre><code class="r">key(dtTidy)
+<pre><code class="r">key(TidyData)
 </code></pre>
 
 <pre><code>## [1] &quot;subject&quot;          &quot;activity&quot;         &quot;featDomain&quot;      
